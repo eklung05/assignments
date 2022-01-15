@@ -17,3 +17,8 @@ function subtract(a,b) {
 function divide(a,b) {
 	return a/b
 }
+
+//call the function and print a line explaining what is happening.
+console.log("I'm going to use the calculator functions to multiply 5 and 6")
+var x = multiply(5,6)
+console.log(x)
